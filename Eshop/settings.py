@@ -143,9 +143,9 @@ STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'productionfiles'
 
 MEDIA_URL = "/image/download/"
-MEDIA_ROOT = BASE_DIR / 'uploads'
+MEDIA_ROOT = BASE_DIR / 'media'
 
 
 if not DEBUG:
-    MEDIA_URL = "https://web-production-2a376.up.railway.app/image/download/"
-    MEDIA_ROOT = "https://web-production-2a376.up.railway.app/uploads/"
+    MEDIA_URL = "https://web-production-2a376.up.railway.app/media/"
+    MEDIA_ROOT = "https://web-production-2a376.up.railway.app/media/"
