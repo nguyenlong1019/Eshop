@@ -31,7 +31,7 @@ CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
-CSRF_TRUSTED_ORIGINS = [https://web-production-2a376.up.railway.app/", "web-production-2a376.up.railway.app"]
+CSRF_TRUSTED_ORIGINS = ["https://web-production-2a376.up.railway.app/", "web-production-2a376.up.railway.app"]
 
 
 # Application definition
